@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shameem Ansari - BCA student and aspiring web developer. Explore my skills, projects, education and contact details.">
+    <title>Shameem Ansari | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a class="brand" href="#home">SA<span>.</span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme"
+                    title="Switch theme">☼</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIP OPPORTUNITIES</p>
+                <h1>Hi, I'm <span>Shameem Ansari</span></h1>
+                <h2>Aspiring Web Developer</h2>
+                <p class="hero-text">I build interactive, user-friendly web experiences and enjoy turning ideas into
+                    practical
+                    projects with code.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#projects">Explore my work <span>↗</span></a>
+                    <a class="btn secondary" href="#contact">Get in touch</a>
+                </div>
+                <div class="quick-facts">
+                    <div><strong>BCA</strong><span>Student</span></div>
+                    <div><strong>3</strong><span>Personal projects</span></div>
+                    <div><strong>6+</strong><span>Core technologies</span></div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="photo-frame">
+                    
+                    <img src="images/shameem.jpg" alt="Portrait of Shameem Ansari"
+                        onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+                    <div class="photo-placeholder">SA</div>
+                </div>
+                <div class="floating-card"><span class="card-icon">⌘</span>
+                    <div><strong>Code. Learn. Build.</strong><small>Growing every day</small></div>
+                </div>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+            </div>
+        </section>
+
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+            <div class="about-card">
+                <p>I am a BCA student at Shoolini University with a strong interest in web development and software
+                    development.
+                    I have practical knowledge of HTML, CSS, JavaScript, DOM manipulation, C, C++, and PHP, and I enjoy
+                    building
+                    interactive projects that help me strengthen my coding and problem-solving skills.</p>
+                <p>I have created browser-based projects including Tic Tac Toe, Sky Runner, and Rock Paper Scissors. I
+                    have also
+                    completed summer training covering web development and programming fundamentals. I am currently
+                    learning
+                    React.js and Node.js and looking for an opportunity to gain real-world industry experience,
+                    collaborate with a
+                    team, and contribute to meaningful projects.</p>
+            </div>
+        </section>
+
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>Technical <span>Skills</span></h2>
+            </div>
+            <div class="skill-grid">
+                <article class="skill-card">
+                    <div class="skill-symbol">5</div>
+                    <h3>HTML5</h3>
+                    <p>Semantic page structure</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-symbol">3</div>
+                    <h3>CSS3</h3>
+                    <p>Layouts and responsive styling</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-symbol">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web experiences</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-symbol">C</div>
+                    <h3>C / C++</h3>
+                    <p>Programming fundamentals</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-symbol">PHP</div>
+                    <h3>PHP</h3>
+                    <p>Server-side fundamentals</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-symbol">GH</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and projects</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-symbol">DOM</div>
+                    <h3>DOM</h3>
+                    <p>Dynamic page manipulation</p>
+                </article>
+                <article class="skill-card learning">
+                    <div class="skill-symbol">↗</div>
+                    <h3>Currently learning</h3>
+                    <p>React.js and Node.js</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section container" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-art tic">
+                        <span>✕</span><span>○</span><span>✕</span><span>○</span><span>✕</span><span>○</span><span>○</span><span>✕</span><span>○</span>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-type">BROWSER GAME</p>
+                        <h3>Tic Tac Toe</h3>
+                        <p>A two-player browser game with an interactive 3×3 grid, win-condition checks, and draw
+                            detection.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a
+                            class="text-link" href="https://github.com/ansarishameem" target="_blank"
+                            rel="noopener">View on GitHub ↗</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-art sky"><span class="sun"></span><span class="cloud cloud-a"></span><span
+                            class="cloud cloud-b"></span><span class="runner">➤</span><span class="ground"></span></div>
+                    <div class="project-body">
+                        <p class="project-type">BROWSER GAME</p>
+                        <h3>Sky Runner</h3>
+                        <p>A browser-based running game focused on player controls, interactive gameplay, and JavaScript
+                            game logic.
+                        </p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a
+                            class="text-link" href="https://github.com/ansarishameem" target="_blank"
+                            rel="noopener">View on GitHub ↗</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-art rps"><span>✊</span><span>✋</span><span>✌️</span></div>
+                    <div class="project-body">
+                        <p class="project-type">BROWSER GAME</p>
+                        <h3>Rock Paper Scissors</h3>
+                        <p>A user-versus-computer game using random choices, game rules, and instant result updates.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a
+                            class="text-link" href="https://github.com/ansarishameem" target="_blank"
+                            rel="noopener">View on GitHub ↗</a>
+                    </div>
+                </article>
+            </div>
+            <p class="note">Replace each GitHub profile link above with the direct repository or live-demo link for that
+                project when you have it.</p>
+        </section>
+        <!--education-->
+        <section class="section container" id="education">
+            <div class="section-heading">
+                <p class="eyebrow">MY LEARNING JOURNEY</p>
+                <h2>Education & <span>Training</span></h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-mark"></div>
+                    <div>
+                        <p class="timeline-label">CURRENT EDUCATION</p>
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p class="muted">Shoolini University</p>
+                        <p>Building a foundation in computer applications, programming, and software development.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <div class="timeline-mark"></div>
+                    <div>
+                        <p class="timeline-label">SUMMER TRAINING</p>
+                        <h3>Web Development & Programming</h3>
+                        <p>Training covering HTML, CSS, JavaScript, C, C++, and PHP, with a focus on web development
+                            concepts and
+                            programming fundamentals.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--contact details -->
+        <section class="section contact-section" id="contact">
+            <div class="container contact-inner">
+                <div>
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2>Have an opportunity<br>or a project in mind?</h2>
+                    <p class="contact-copy">I'm interested in internships, learning opportunities, and collaborating on
+                        useful web
+                        projects.</p>
+                </div>
+
+                <div class="contact-links">
+
+                    <a href="theshameemansari@gmail.com">✉ <span>theshameemansari@gmail.com</span></a>
+                    <a href="https://github.com/ansarishameem" target="_blank" rel="noopener">⌘
+                        <span>github.com/Shameem Ansari</span></a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener">in <span>My Linkedin profile</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container"><span>© <span id="year"></span> Shameem Ansari </span><span>Designed and built with HTML,
+                CSS
+                & JavaScript.</span></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
